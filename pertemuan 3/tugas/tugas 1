@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <THead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th colspan="2">nama matakuliah</th>
+            </tr>
+            <tr>
+                <th>nama</th>
+                <th>sks</th>
+            </tr>
+        </THead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>apk mobile</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>wirausaha</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>administrasi jaringan</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>program visual</td>
+                <td>2</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2">total sks</td>
+                    <td>3000000</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+    
+</body>
+</html>
