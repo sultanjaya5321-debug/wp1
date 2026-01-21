@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menambahkan Elemen</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script>
+        const newDiv = document.createElement('div');
+        newDiv.setAttribute('class', 'new-class');
+        newDiv.setAttribute('id', 'newDiv');
+        newDiv.textContent = 'Ini adalah elemen baru!';
+        document.getElementById('container').appendChild(newDiv);
+    </script>
+</body>
+</html>

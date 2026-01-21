@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fungsi Hitung</title>
+</head>
+<body>
+    <script>
+        function hitung(operasi, a, b) {
+            let hasil;
+
+            switch (operasi) {
+                case 'tambah':
+                    hasil = a + b;
+                    break;
+                case 'kurang':
+                    hasil = a - b;
+                    break;
+                case 'kali':
+                    hasil = a * b;
+                    break;
+                case 'bagi':
+                    hasil = a / b;
+                    break;
+                default:
+                    hasil = 'Operasi tidak valid';
+            }
+
+            return hasil;
+        }
+
+        // Cara menggunakan function
+        console.log(hitung('tambah', 8, 2));
+        console.log(hitung('kurang', 8, 2));
+        console.log(hitung('kali', 8, 2));
+        console.log(hitung('bagi', 8, 2));
+    </script>
+</body>
+</html>
